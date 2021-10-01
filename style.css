@@ -108,8 +108,11 @@ footer {
   padding: 20px 25px;
 }
 
-@media (min-width: 750 px) {
+@media screen and (min-width: 750px) {
 }
 
-@media (min-width: 1000 px) {
+@media screen and (min-width: 1000px) {
+  #section1 {
+    max-width: 950px;
+  }
 }

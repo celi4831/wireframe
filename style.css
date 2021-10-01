@@ -1,0 +1,13 @@
+.navbar-brand {
+  font-family: "Oranienbaum", serif;
+  font-size: 2.8rem;
+}
+
+navbar-light .navbar-brand {
+  color: #605046;
+}
+
+h2,
+h3 {
+  font-family: "Oranienbaum", serif;
+}

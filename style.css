@@ -53,6 +53,8 @@ nav a {
 header {
   background-color: white;
   justify-content: center;
+  position: fixed;
+  width: 100%;
 }
 
 #splash {
@@ -105,11 +107,30 @@ header {
   padding: 30px 25px;
 }
 
+.hak {
+  width: 25px;
+  height: auto;
+}
+
+.kryds_af {
+  max-width: 550px;
+  margin: auto;
+}
+
 .tekst4 h2 {
   color: #d6cebd;
 }
 
 .tekst4 p {
+  color: white;
+}
+
+.kryds_af {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.kryds_af p {
   color: white;
 }
 

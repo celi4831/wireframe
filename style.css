@@ -6,19 +6,29 @@ img {
   width: 100%;
 }
 
+a {
+  color: black;
+}
+
+a :hover {
+  color: #605046;
+}
+
 h2 {
   font-family: "Oranienbaum", serif;
   text-align: center;
   color: #605046;
+  margin-bottom: 1rem;
 }
 
 h4 {
   font-family: "Oranienbaum", serif;
+  font-size: 1.2rem;
 }
 
 p {
   font-family: "Montserrat", sans-serif;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 main {
@@ -46,7 +56,7 @@ header {
 }
 
 #splash {
-  margin-bottom: 25px;
+  margin-bottom: 10px;
   width: 100%;
   height: 50vh;
   background-image: url(splash.jpg);
@@ -56,16 +66,21 @@ header {
 }
 
 #section1 {
-  padding: 5px 10px;
+  padding: 10px 10px;
+  padding-bottom: 20px;
+}
+
+#section1 .image1 {
+  padding: 0px 50px;
 }
 
 #section2 {
   background-color: #d6cebd;
-  padding: 20px 25px;
+  padding: 30px 25px;
 }
 
 #section3 {
-  padding: 20px 25px;
+  padding: 30px 25px;
 }
 
 .billeder_grid img {
@@ -82,14 +97,12 @@ header {
 
 .billeder_grid p {
   text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-size: 1.05rem;
+  font-size: 0.95rem;
 }
 
 #section4 {
   background-color: #605046;
-  padding: 20px 25px;
+  padding: 30px 25px;
 }
 
 .tekst4 h2 {
@@ -101,11 +114,12 @@ header {
 }
 
 #section5 .tekst5 {
-  padding: 20px 25px;
+  padding: 30px 25px 10px;
 }
 
 #section5 .moment_billeder {
-  padding: 0px 10px;
+  padding: 0px 50px;
+  margin-bottom: 80px;
 }
 
 footer {
@@ -117,25 +131,57 @@ footer {
   margin-right: 10px;
 }
 
+.kontakt,
+.insta_face {
+  padding-bottom: 18px;
+}
+
+.om,
+.handel,
+.levering,
+.partnere {
+  cursor: pointer;
+}
+
 @media screen and (min-width: 576px) {
+  #section1 .image1 {
+    padding: 0px;
+  }
+
+  #section5 .moment_billeder {
+    padding: 0px 15px;
+  }
+
   .billeder_grid img {
     width: 100%;
+  }
+
+  #splash {
+    height: 65vh;
   }
 }
 
 @media screen and (min-width: 768px) {
   p {
-    font-size: 1rem;
+    font-size: 0.85rem;
+  }
+
+  #splash {
+    height: 70vh;
   }
 }
 
 @media screen and (min-width: 992px) {
+  #splash {
+    height: 75vh;
+  }
+
   p {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
   }
 
   #section1 {
-    max-width: 950px;
+    max-width: 900px;
     margin: auto;
   }
 
@@ -145,7 +191,7 @@ footer {
   }
 
   #section4 .indhold4 {
-    max-width: 950px;
+    max-width: 900px;
     margin: auto;
   }
 
@@ -155,7 +201,7 @@ footer {
   }
 
   .footer_indhold {
-    max-width: 950px;
+    max-width: 900px;
     margin: auto;
   }
 }

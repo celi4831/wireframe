@@ -82,6 +82,11 @@ video {
   padding: 30px 25px;
 }
 
+#section2 img {
+  width: 80%;
+  height: auto;
+}
+
 #section3 {
   padding: 30px 25px;
 }

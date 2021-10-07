@@ -40,6 +40,7 @@ main {
   font-family: "Oranienbaum", serif;
   font-size: 2.1rem;
   color: #605046;
+  margin-top: -12px;
 }
 
 .navbar {
@@ -55,16 +56,16 @@ header {
   justify-content: center;
   position: fixed;
   width: 100%;
+  height: 7vh;
 }
 
 #splash {
-  margin-bottom: 10px;
+  height: 50%;
+}
+
+video {
   width: 100%;
-  height: 50vh;
-  background-image: url(splash.jpg);
-  background-size: cover;
-  background-position: 25% 10%;
-  max-width: none;
+  height: auto;
 }
 
 #section1 {
@@ -176,10 +177,6 @@ footer {
   .billeder_grid img {
     width: 100%;
   }
-
-  #splash {
-    height: 65vh;
-  }
 }
 
 @media screen and (min-width: 768px) {
@@ -187,16 +184,17 @@ footer {
     font-size: 0.85rem;
   }
 
-  #splash {
-    height: 70vh;
+  .navbar-brand {
+    margin-top: -9px;
+    font-size: 2.6rem;
+  }
+
+  header {
+    height: 10vh;
   }
 }
 
 @media screen and (min-width: 992px) {
-  #splash {
-    height: 75vh;
-  }
-
   p {
     font-size: 0.9rem;
   }
@@ -204,6 +202,7 @@ footer {
   #section1 {
     max-width: 900px;
     margin: auto;
+    padding: 80px 0px;
   }
 
   #section3 {

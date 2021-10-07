@@ -179,12 +179,6 @@ footer {
   }
 }
 
-@media screen and (min-width: 700px) {
-  #section1 .tekst1 {
-    padding-top: 20px;
-  }
-}
-
 @media screen and (min-width: 768px) {
   p {
     font-size: 0.85rem;
@@ -197,10 +191,6 @@ footer {
 
   header {
     height: 10vh;
-  }
-
-  #section1 .tekst1 {
-    padding-top: 30px;
   }
 }
 

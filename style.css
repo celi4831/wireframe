@@ -149,6 +149,10 @@ video {
   margin-bottom: 65px;
 }
 
+.moment_billeder img :hover {
+  transform: scale(1.2);
+}
+
 footer {
   background-color: #d6cebd;
   padding: 20px 25px;
@@ -199,7 +203,7 @@ footer {
   }
 
   header {
-    height: 10vh;
+    height: 9vh;
   }
 
   #section2 img {
@@ -213,7 +217,7 @@ footer {
   }
 
   #section1 {
-    max-width: 900px;
+    max-width: 800px;
     margin: auto;
     padding: 60px 0px;
   }
@@ -223,25 +227,25 @@ footer {
   }
 
   #section3 {
-    max-width: 950px;
+    max-width: 850px;
     margin: auto;
     padding: 50px 0px;
   }
 
   #section4 .indhold4 {
-    max-width: 900px;
+    max-width: 800px;
     margin: auto;
     padding: 40px 0px;
   }
 
   #section5 {
-    max-width: 950px;
+    max-width: 850px;
     margin: auto;
     padding: 50px 0px;
   }
 
   .footer_indhold {
-    max-width: 900px;
+    max-width: 800px;
     margin: auto;
   }
 }

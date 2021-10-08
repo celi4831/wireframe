@@ -76,6 +76,8 @@ video {
 
 .snappy_container {
   scroll-snap-type: y mandatory;
+  overflow-y: auto;
+  /* min-height: 100vh; */
 }
 
 section {

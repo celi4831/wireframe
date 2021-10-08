@@ -88,7 +88,7 @@ section {
 #section1 {
   padding: 10px 10px;
   padding-bottom: 20px;
-  max-width: 850px;
+  max-width: 800px;
   margin: auto;
 }
 
@@ -112,7 +112,7 @@ section {
 
 #section3 {
   padding: 30px 25px;
-  max-width: 900px;
+  max-width: 850px;
   margin: auto;
 }
 
@@ -139,7 +139,7 @@ section {
 }
 
 #section4 .indhold4 {
-  max-width: 850px;
+  max-width: 800px;
   margin: auto;
 }
 
@@ -171,7 +171,7 @@ section {
 }
 
 #section5 {
-  max-width: 900px;
+  max-width: 850px;
   margin: auto;
 }
 
@@ -195,6 +195,53 @@ section {
 
 .img-hover-zoom:hover img {
   transform: scale(1.1);
+}
+
+#section6 {
+  background-color: #605046;
+  padding: 30px 25px;
+}
+
+.tekst6 {
+  max-width: 800px;
+  margin: auto;
+}
+
+.tekst6 h2 {
+  color: #d6cebd;
+}
+
+.tekst6 p {
+  color: #d6cebd;
+}
+
+.skirvop {
+  justify-content: center;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+input {
+  color: black;
+  background-color: white;
+  border: none;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
+  margin-right: 10px;
+}
+
+button {
+  color: black;
+  background-color: white;
+  border: none;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
 }
 
 footer {

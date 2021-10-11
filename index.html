@@ -34,17 +34,18 @@
       </nav>
     </header>
 
+    <section id="splash">
+      <video autoplay muted loop>
+        <source src="splash.mp4" type="video/mp4" />
+      </video>
+    </section>
+
     <main>
       <div class="snappy_container">
-        <section id="splash">
-          <video autoplay muted loop>
-            <source src="splash.mp4" type="video/mp4" />
-          </video>
-        </section>
         <section id="section1">
           <div class="row g-2 g-xl-4">
             <div class="col-sm image1">
-              <img class="p-3" src="section1.jpg" alt="espressomartini" />
+              <img class="p-3" src="img/section1.jpg" alt="espressomartini" />
             </div>
             <div class="col-sm tekst1">
               <div class="p-3">
@@ -53,8 +54,6 @@
                   Vi har skabt en Espresso Martini med dybde, som giver dig en
                   ultimativ oplevelse hvor som helt, og når som helst. <br />
                   <br />
-                  En færdigmixet cooktail baseret på koldbrygget kaffe af sin
-                  fineste form med noter af sød vanilje og vodka.
                 </p>
               </div>
             </div>
@@ -62,8 +61,24 @@
         </section>
 
         <section id="section2">
-          <h2>Det indeholder din GOLDEN - Espresso Martini</h2>
-          <img src="illustration.png" alt="ingredienser" class="center" />
+          <div class="row g-2 g-xl-4">
+            <div class="col-sm image_flaske">
+              <img
+                class="p-3"
+                src="img/flaske.png"
+                alt="espressomartini_flaske"
+              />
+            </div>
+            <div class="col-sm tekst2">
+              <div class="p-3">
+                <h2>Det indeholder din GOLDEN - Espresso Martini</h2>
+                <p>
+                  En færdigmixet cooktail baseret på koldbrygget kaffe af sin
+                  fineste form med noter af sød vanilje og vodka.
+                </p>
+              </div>
+            </div>
+          </div>
         </section>
 
         <section id="section3">
@@ -80,15 +95,15 @@
           </div>
           <div class="row g-2 g-xl-4 billeder_grid">
             <div class="col-sm">
-              <img class="p-3 center" src="event.png" alt="event" />
+              <img class="p-3 center" src="img/event.png" alt="event" />
               <p>Til eventet</p>
             </div>
             <div class="col-sm">
-              <img class="p-3 center" src="picnic.png" alt="udflugt" />
+              <img class="p-3 center" src="img/picnic.png" alt="udflugt" />
               <p>På udflugten</p>
             </div>
             <div class="col-sm">
-              <img class="p-3 center" src="friends.png" alt="vennerne" />
+              <img class="p-3 center" src="img/friends.png" alt="vennerne" />
               <p>Med vennerne</p>
             </div>
           </div>
@@ -114,7 +129,11 @@
               <div class="flueben_1">
                 <div class="row g-2 g-xl-4">
                   <div class="col">
-                    <img class="p-3 center" src="flueben.png" alt="flueben" />
+                    <img
+                      class="p-3 center"
+                      src="img/flueben.png"
+                      alt="flueben"
+                    />
                   </div>
                   <div class="col">
                     <div class="p-3">
@@ -126,7 +145,11 @@
               <div class="flueben_2">
                 <div class="row g-2 g-xl-4">
                   <div class="col">
-                    <img class="p-3 center" src="flueben.png" alt="flueben" />
+                    <img
+                      class="p-3 center"
+                      src="img/flueben.png"
+                      alt="flueben"
+                    />
                   </div>
                   <div class="col">
                     <div class="p-3">
@@ -138,7 +161,11 @@
               <div class="flueben_3">
                 <div class="row g-2 g-xl-4">
                   <div class="col">
-                    <img class="p-3 center" src="flueben.png" alt="flueben" />
+                    <img
+                      class="p-3 center"
+                      src="img/flueben.png"
+                      alt="flueben"
+                    />
                   </div>
                   <div class="col">
                     <div class="p-3">
@@ -153,30 +180,27 @@
 
         <section id="section5">
           <div class="tekst5">
-            <h2>
-              Del dit
-              <span style="color: #d2ac47">#GOLDENMOMENT</span> med os
-            </h2>
+            <h2>#GOLDENMOMENT</h2>
+            <h3>
+              Del dit golden moment med os på Instagram, og bliv en del af
+              GOLDEN-universet
+            </h3>
           </div>
           <div class="moment_billeder">
             <div class="row g-2 g-xl-4">
-              <div class="col-sm container">
-                <img class="p-3" src="moment1.jpg" alt="moment1" />
-                <div class="overlay">
-                  <a href="#" class="icon" title="User Profile">
-                    <i class="bi bi-instagram"></i>
-                  </a>
-                </div>
-              </div>
-
               <div class="col-sm img-hover-zoom">
                 <a href="https://www.instagram.com/golden_espressomartini/"
-                  ><img class="p-3" src="moment2_3.jpg" alt="placeholder"
+                  ><img class="p-3" src="img/moment1.jpg" alt="moment1"
                 /></a>
               </div>
               <div class="col-sm img-hover-zoom">
                 <a href="https://www.instagram.com/golden_espressomartini/"
-                  ><img class="p-3" src="moment3.jpg" alt="moment3"
+                  ><img class="p-3" src="img/moment2_3.jpg" alt="moment2"
+                /></a>
+              </div>
+              <div class="col-sm img-hover-zoom">
+                <a href="https://www.instagram.com/golden_espressomartini/"
+                  ><img class="p-3" src="img/moment3.jpg" alt="moment3"
                 /></a>
               </div>
             </div>
@@ -201,7 +225,7 @@
       </section>
     </main>
 
-    <footer>
+    <!-- <footer>
       <div class="footer_indhold">
         <div class="row g-2 g-xl-4">
           <div class="col-sm kontakt">
@@ -256,24 +280,16 @@
           </div>
         </div>
       </div>
-    </footer>
+    </footer> -->
 
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
       crossorigin="anonymous"
     ></script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
-    -->
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
     <script src="script.js"></script>
-    <script src="ScrollTrigger.min.js"></script>
   </body>
 </html>

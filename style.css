@@ -2,6 +2,12 @@
   box-sizing: border-box;
 }
 
+main {
+  background-image: url("img/gradient.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 img {
   width: 100%;
 }
@@ -16,8 +22,7 @@ a :hover {
 
 h2 {
   font-family: "Oranienbaum", serif;
-  text-align: center;
-  color: #605046;
+  color: black;
   margin-bottom: 1.2rem;
 }
 
@@ -97,7 +102,6 @@ video {
 }
 
 #section2 {
-  background-color: #d6cebd;
   padding: 30px 25px;
 }
 
@@ -145,17 +149,12 @@ video {
 }
 
 #section4 {
-  background-color: #605046;
   padding: 30px 25px;
 }
 
 #section4 .indhold4 {
   max-width: 800px;
   margin: auto;
-}
-
-#section4 p {
-  color: #d6cebd;
 }
 
 #section4 img {
@@ -192,17 +191,9 @@ video {
   margin: auto;
 }
 
-.tekst4 h2 {
-  color: #d6cebd;
-}
-
 .kryds_af {
   padding-top: 30px;
   padding-bottom: 20px;
-}
-
-.kryds_af p {
-  color: #d6cebd;
 }
 
 #section5 {
@@ -212,14 +203,14 @@ video {
 
 #section5 h2 {
   color: #d2ac47;
-  font-size: 3rem;
+  font-size: 5rem;
   padding-bottom: 20px;
+  text-align: center;
 }
 
 #section5 h3 {
   font-family: "Oranienbaum", serif;
   text-align: center;
-  color: #605046;
   font-size: 1.5rem;
 }
 
@@ -267,7 +258,6 @@ video {
 }
 
 #section6 {
-  background-color: #605046;
   padding: 30px 25px;
 }
 
@@ -278,14 +268,6 @@ video {
 .tekst6 {
   max-width: 800px;
   margin: auto;
-}
-
-.tekst6 h2 {
-  color: #d6cebd;
-}
-
-.tekst6 p {
-  color: #d6cebd;
 }
 
 .skirvop {

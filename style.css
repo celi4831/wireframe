@@ -1,16 +1,20 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-main {
-  background-image: url("img/gradient.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+body {
+  background: #603813;
+  background: -webkit-linear-gradient(to bottom, #d6cebd, #423731);
+  background: linear-gradient(to bottom, #d6cebd, #423731);
 }
 
 img {
   width: 100%;
 }
+
+/* font */
 
 a {
   color: black;
@@ -18,6 +22,12 @@ a {
 
 a :hover {
   color: #605046;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+  color: black;
 }
 
 h2 {
@@ -28,17 +38,14 @@ h2 {
 
 h3 {
   font-family: "Montserrat", sans-serif;
+  color: black;
   font-size: 0.9rem;
 }
 
 h4 {
   font-family: "Oranienbaum", serif;
+  color: black;
   font-size: 1.2rem;
-}
-
-p {
-  font-family: "Montserrat", sans-serif;
-  font-size: 0.9rem;
 }
 
 main {
@@ -46,85 +53,90 @@ main {
   display: block;
 }
 
-.navbar-brand {
-  font-family: "Oranienbaum", serif;
-  font-size: 2.1rem;
-  color: #605046;
-  margin-top: -12px;
-}
+/* video */
 
-.navbar {
-  justify-content: center;
-}
-
-nav a {
-  text-align: center;
-}
-
-header {
-  background-color: white;
-  justify-content: center;
-  position: fixed;
-  width: 100%;
-  height: 7vh;
-  z-index: 20;
-}
-
-video {
-  width: 100%;
-  max-height: 100%;
-}
-
-.snappy_container {
-  scroll-snap-type: y mandatory;
-  overflow-y: auto;
-  /* min-height: 100vh; */
-}
-
-#splash {
+#water_video {
   position: relative;
   width: 100%;
+  height: 100vh;
+  overflow: hidden;
 }
+
+#water_video video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#water_video h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-transform: uppercase;
+  font-size: 25vw;
+  text-align: center;
+  line-height: 0.95em;
+  color: white;
+  background: #423731;
+  mix-blend-mode: multiply;
+  font-family: "Oranienbaum", serif;
+}
+
+#water_video h1 span {
+  font-size: 3vw;
+  line-height: 0.85em;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* section 1 */
 
 #section1 {
-  padding: 10px 10px;
-  padding-bottom: 20px;
-  max-width: 800px;
+  max-width: 900px;
   margin: auto;
-}
-
-#section1 .tekst1 h2 {
-  text-align: left;
+  padding-top: 60px;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 #section1 .image1 {
-  padding: 0px 50px;
+  padding: 0px 25px;
 }
+
+/* section 2 */
 
 #section2 {
-  padding: 30px 25px;
+  padding-top: 60px;
 }
 
-#section2 img {
+.section2_indhold {
+  max-width: 900px;
+  margin: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#section2 .image_flaske {
+  height: 100%;
   width: 100%;
-  height: auto;
-  animation-name: enter;
-  animation-duration: 4s;
 }
 
-@keyframes enter {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
+/* section 3 */
 
 #section3 {
-  padding: 30px 25px;
-  max-width: 850px;
+  max-width: 900px;
+  padding-top: 60px;
   margin: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 #section3 .tekst3 p {
@@ -133,7 +145,7 @@ video {
 
 .billeder_grid img {
   border-radius: 50%;
-  width: 70%;
+  width: 85%;
 }
 
 .center {
@@ -148,12 +160,17 @@ video {
   font-size: 1rem;
 }
 
+/* section 4 */
+
 #section4 {
-  padding: 30px 25px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 60px;
 }
 
-#section4 .indhold4 {
-  max-width: 800px;
+.section4_indhold {
+  padding-top: 50px;
+  max-width: 900px;
   margin: auto;
 }
 
@@ -181,11 +198,6 @@ video {
   padding-top: 16px;
 }
 
-.hak {
-  width: 25px;
-  height: auto;
-}
-
 .kryds_af {
   max-width: 550px;
   margin: auto;
@@ -196,14 +208,19 @@ video {
   padding-bottom: 20px;
 }
 
+/* section 5 */
+
 #section5 {
-  max-width: 850px;
+  max-width: 900px;
   margin: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 60px;
 }
 
 #section5 h2 {
   color: #d2ac47;
-  font-size: 5rem;
+  font-size: 2rem;
   padding-bottom: 20px;
   text-align: center;
 }
@@ -211,7 +228,8 @@ video {
 #section5 h3 {
   font-family: "Oranienbaum", serif;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
+  color: black;
 }
 
 #section5 .tekst5 {
@@ -219,7 +237,6 @@ video {
 }
 
 #section5 .moment_billeder {
-  padding: 0px 50px;
   margin-bottom: 65px;
 }
 
@@ -236,29 +253,12 @@ video {
   transform: scale(1.1);
 }
 
-.container {
-  position: relative;
-  width: 100%;
-  max-width: 400px;
-}
-
-.icon {
-  color: white;
-  font-size: 100px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.fa-user:hover {
-  color: #eee;
-}
+/* section 6 */
 
 #section6 {
   padding: 30px 25px;
+  background-color: #605046;
+  padding-top: 60px;
 }
 
 #section6 p {
@@ -273,7 +273,7 @@ video {
 .skirvop {
   justify-content: center;
   margin: auto;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
 }
 
 input {
@@ -301,7 +301,7 @@ button {
 
 footer {
   background-color: #d6cebd;
-  padding: 20px 25px;
+  padding: 2rem;
 }
 
 .footer_indhold {
@@ -326,28 +326,43 @@ footer {
 }
 
 @media screen and (min-width: 576px) {
+  h2 {
+    font-size: 1.7rem;
+  }
+
+  /* section 1 */
   #section1 .image1 {
     padding: 0px;
   }
 
-  #section2 img {
-    width: 80%;
+  /* section 2 */
+  #section2 .image_flaske {
+    height: 90%;
+    width: 90%;
   }
 
+  /* section 3 */
   .billeder_grid p {
     font-size: 1.05rem;
-  }
-
-  #section5 .moment_billeder {
-    padding: 0px 15px;
   }
 
   .billeder_grid img {
     width: 100%;
   }
 
+  /* section 4 */
   #section4 .flueben {
     max-width: 500px;
+  }
+
+  /* section 5 */
+
+  #section5 h2 {
+    font-size: 2.8rem;
+  }
+
+  #section5 h3 {
+    font-size: 1.5rem;
   }
 }
 
@@ -356,22 +371,30 @@ footer {
     font-size: 1rem;
   }
 
-  .navbar-brand {
-    margin-top: -9px;
-    font-size: 2.6rem;
+  h2 {
+    font-size: 1.8rem;
   }
 
-  header {
-    height: 9vh;
+  /* section 1 */
+
+  #section1 .image1 {
+    padding: 0px;
   }
 
-  #section2 img {
-    width: 70%;
+  /* section 2 */
+
+  #section2 .image_flaske {
+    width: 100%;
+    height: auto;
   }
+
+  /* section 3 */
 
   .billeder_grid p {
     font-size: 1.1rem;
   }
+
+  /* section 4 */
 
   .flueben_1 p,
   .flueben_2 p,
@@ -380,42 +403,49 @@ footer {
     padding-top: 20px;
   }
 
+  /* section 5 */
+
   #section5 h2 {
     font-size: 4rem;
   }
+
+  /* section 6 */
 }
 
 @media screen and (min-width: 992px) {
   p {
-    font-size: 1.05rem;
+    font-size: 1.1rem;
+    color: black;
   }
 
+  /* section 1 */
   #section1 {
-    padding: 60px 0px;
+    padding-top: 100px;
   }
 
-  #section1 h2 {
-    padding-top: 20px;
+  /* section 2 */
+  #section2 {
+    padding-top: 100px;
   }
 
-  #section2 img {
-    width: 60%;
-  }
-
+  /* section 3 */
   .billeder_grid p {
     font-size: 1.15rem;
   }
 
   #section3 {
-    padding: 50px 0px;
+    padding-top: 100px;
   }
 
+  /* section 4 */
   #section4 .indhold4 {
-    padding: 40px 0px;
+    padding-top: 100px;
   }
 
+  /* section 5 */
   #section5 {
-    padding: 50px 0px;
-    padding-bottom: 10px;
+    padding-top: 100px;
   }
+
+  /* section 6 */
 }

@@ -30,7 +30,7 @@ gsap
   .timeline({
     scrollTrigger: {
       trigger: section2,
-      start: "50% 50%",
+      start: "40% 70%",
       end: "+=200",
       scrub: true,
       //   markers: true,
@@ -52,7 +52,7 @@ gsap
   .timeline({
     scrollTrigger: {
       trigger: section3,
-      start: "30% 30%",
+      start: "20% 40%",
       end: "+=200",
       scrub: true,
       //   markers: true,
@@ -81,7 +81,7 @@ gsap
   .timeline({
     scrollTrigger: {
       trigger: section4,
-      start: "45% 30%",
+      start: "25% 50%",
       end: "+=200",
       scrub: true,
       //   markers: true,
@@ -104,7 +104,7 @@ gsap
   .timeline({
     scrollTrigger: {
       trigger: section5,
-      start: "10% 60%",
+      start: "30% 50%",
       end: "+=200",
       scrub: true,
       //   markers: true,

@@ -4,14 +4,23 @@
   padding: 0;
 }
 
-body {
-  background: #603813;
-  background: -webkit-linear-gradient(to bottom, #d6cebd, #423731);
-  background: linear-gradient(to bottom, #d6cebd, #423731);
-}
-
 img {
   width: 100%;
+}
+
+body {
+  /* background-color: #605046; */
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+main {
+  overflow: hidden;
 }
 
 /* font */
@@ -100,11 +109,21 @@ main {
 /* section 1 */
 
 #section1 {
+  background-color: #605046;
+}
+
+.section1_indhold {
   max-width: 900px;
   margin: auto;
   padding-top: 60px;
+  padding-bottom: 20px;
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+#section1 p,
+#section1 h2 {
+  color: #d6cebd;
 }
 
 #section1 .image1 {
@@ -114,26 +133,41 @@ main {
 /* section 2 */
 
 #section2 {
-  padding-top: 60px;
+  padding-top: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 20px;
+  background-color: #d6cebd;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .section2_indhold {
   max-width: 900px;
   margin: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 
 #section2 .image_flaske {
   height: 100%;
   width: 100%;
+  margin-bottom: 20px;
+  margin-top: -40px;
+  margin-left: 12px;
+}
+
+#section2 .tekst2 {
+  margin: 20px;
+}
+
+#section2 .p-3 {
+  margin-right: 20px;
 }
 
 /* section 3 */
 
 #section3 {
   max-width: 900px;
-  padding-top: 60px;
+  padding-top: 25px;
+  padding-bottom: 40px;
   margin: auto;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -148,13 +182,6 @@ main {
   width: 85%;
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
 .billeder_grid p {
   text-align: center;
   font-size: 1rem;
@@ -163,15 +190,16 @@ main {
 /* section 4 */
 
 #section4 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-top: 60px;
+  background-color: #605046;
 }
 
 .section4_indhold {
-  padding-top: 50px;
   max-width: 900px;
   margin: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 40px;
+  /* margin: 50px 0px; */
 }
 
 #section4 img {
@@ -179,9 +207,16 @@ main {
   height: auto;
 }
 
+#section4 p,
+#section4 h2 {
+  color: #d6cebd;
+}
+
 #section4 .flueben {
   max-width: 300px;
   margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .flueben_1 p {
@@ -215,12 +250,12 @@ main {
   margin: auto;
   padding-left: 2rem;
   padding-right: 2rem;
-  padding-top: 60px;
+  padding-top: 10px;
 }
 
 #section5 h2 {
   color: #d2ac47;
-  font-size: 2rem;
+  font-size: 2.1rem;
   padding-bottom: 20px;
   text-align: center;
 }
@@ -238,6 +273,7 @@ main {
 
 #section5 .moment_billeder {
   margin-bottom: 65px;
+  padding: 0px 50px;
 }
 
 .img-hover-zoom {
@@ -261,13 +297,19 @@ main {
   padding-top: 60px;
 }
 
+#section6 h2 {
+  color: #d6cebd;
+}
+
 #section6 p {
   padding-bottom: 20px;
+  color: #d6cebd;
 }
 
 .tekst6 {
   max-width: 800px;
   margin: auto;
+  color: white;
 }
 
 .skirvop {
@@ -298,6 +340,8 @@ button {
   font-family: "Montserrat", sans-serif;
   font-size: 0.8rem;
 }
+
+/* footer */
 
 footer {
   background-color: #d6cebd;
@@ -353,6 +397,8 @@ footer {
   /* section 4 */
   #section4 .flueben {
     max-width: 500px;
+    margin-top: 70px;
+    margin-bottom: 0px;
   }
 
   /* section 5 */
@@ -363,6 +409,10 @@ footer {
 
   #section5 h3 {
     font-size: 1.5rem;
+  }
+
+  #section5 .moment_billeder {
+    padding: 0px 0px;
   }
 }
 
@@ -410,22 +460,32 @@ footer {
   }
 
   /* section 6 */
+  input {
+    padding: 10px;
+  }
+
+  button {
+    padding: 10px 12px;
+    font-size: 0.8rem;
+  }
 }
 
 @media screen and (min-width: 992px) {
   p {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: black;
   }
 
   /* section 1 */
-  #section1 {
+  .section1_indhold {
     padding-top: 100px;
+    padding-bottom: 100px;
   }
 
   /* section 2 */
   #section2 {
     padding-top: 100px;
+    padding-bottom: 60px;
   }
 
   /* section 3 */
@@ -434,17 +494,23 @@ footer {
   }
 
   #section3 {
-    padding-top: 100px;
+    padding-top: 70px;
+    padding-bottom: 110px;
   }
 
   /* section 4 */
-  #section4 .indhold4 {
+  .section4_indhold {
+    padding-bottom: 100px;
     padding-top: 100px;
   }
 
   /* section 5 */
   #section5 {
-    padding-top: 100px;
+    padding-top: 80px;
+  }
+
+  #section5 .moment_billeder img {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   }
 
   /* section 6 */

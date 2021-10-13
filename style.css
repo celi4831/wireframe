@@ -81,6 +81,12 @@ header {
   z-index: 2;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
 }
+
+.navbar-nav .nav-link {
+  padding-right: 0;
+  padding-left: 15px;
+}
+
 .navbar-light .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23fff' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
@@ -160,9 +166,9 @@ header {
 
 /* section 1 */
 
-#section1 {
+/* #section1 {
   background-color: #605046;
-}
+} */
 
 .section1_indhold {
   max-width: 900px;
@@ -174,14 +180,14 @@ header {
 }
 
 #section1 video {
-  width: 45vh;
+  width: 80%;
   height: auto;
   margin-top: -15px;
 }
 
 #section1 p,
 #section1 h2 {
-  color: #d6cebd;
+  color: black;
 }
 
 #section1 .image1 {
@@ -194,8 +200,14 @@ header {
   padding-top: 1.5rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  margin: 20px;
-  background-color: #d6cebd;
+  /* margin: 20px; */
+  /* background-image: url("img/background.jpg");
+  background-repeat: none;
+  background-size: cover; */
+  /* background-color: #d6cebd; */
+  background: #d6cebd;
+  /* background: -webkit-linear-gradient(to bottom, #e0d9ca, #d6cebd);
+  background: linear-gradient(to bottom, #e0d9ca, #d6cebd); */
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
@@ -218,6 +230,28 @@ header {
 
 #section2 .p-3 {
   margin-right: 20px;
+}
+
+.knap_kob button {
+  height: 6vh;
+  width: 12vh;
+  background-color: #d2ac47;
+  color: black;
+  margin: 10px 0px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 4px 4px;
+  font-size: 1rem;
+  justify-self: center;
+}
+
+.knap_kob :hover {
+  background-color: #605046;
+  color: #d6cebd;
+}
+
+.knap_kob {
+  margin: auto;
+  justify-content: center;
+  display: flex;
 }
 
 /* section 3 */
@@ -251,8 +285,22 @@ header {
   padding-left: 2rem;
   padding-right: 2rem;
   padding-top: 40px;
-  margin: 20px;
-  background-color: #605046;
+  /* margin: 20px; */
+  /* background-image: url("img/background4.jpg");
+  background-repeat: none;
+  background-size: cover; */
+  background: #605046;
+  /* background: -webkit-linear-gradient(
+    to bottom,
+    #423731,
+    #605046
+  ); 
+  background: linear-gradient(
+    to bottom,
+    #423731,
+    #605046
+  );  */
+
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
@@ -352,7 +400,18 @@ header {
 
 #nyhedsmail_s6 {
   padding: 30px 25px;
-  background-color: #605046;
+  /* background-color: #605046; */
+  background: #605046; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #605046,
+    #423731
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #605046,
+    #423731
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding-top: 60px;
 }
 
@@ -398,6 +457,11 @@ button {
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
   font-size: 0.8rem;
+}
+
+button .button_tilmeld :hover {
+  color: white;
+  background-color: black;
 }
 
 /* footer */
@@ -520,6 +584,7 @@ footer p {
   #section2 .image_flaske {
     width: 100%;
     height: auto;
+    margin-top: -10px;
   }
 
   /* section 3 */

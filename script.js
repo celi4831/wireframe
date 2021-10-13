@@ -96,22 +96,22 @@ gsap
 
 //   section 5
 
-const section5 = document.querySelector("#section5");
+// const section5 = document.querySelector("#section5");
 
-const h2 = document.querySelectorAll("#section5 h2");
+// const h2 = document.querySelectorAll("#section5 h2");
 
-gsap
-  .timeline({
-    scrollTrigger: {
-      trigger: section5,
-      start: "30% 50%",
-      end: "+=200",
-      scrub: true,
-      //   markers: true,
-    },
-  })
-  .from(h2, {
-    opacity: 0,
-    stagger: 0.1,
-    duration: 1,
-  });
+// gsap
+//   .timeline({
+//     scrollTrigger: {
+//       trigger: section5,
+//       start: "30% 50%",
+//       end: "+=200",
+//       scrub: true,
+//       //   markers: true,
+//     },
+//   })
+//   .from(h2, {
+//     opacity: 0,
+//     stagger: 0.1,
+//     duration: 1,
+//   });

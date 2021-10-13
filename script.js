@@ -30,7 +30,7 @@ gsap
   .timeline({
     scrollTrigger: {
       trigger: section2,
-      start: "40% 70%",
+      start: "35% 70%",
       end: "+=200",
       scrub: true,
       //   markers: true,

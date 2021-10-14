@@ -302,6 +302,7 @@ header {
 #section4 p,
 #section4 h2 {
   color: #d6cebd;
+  color: white;
 }
 
 #section4 .flueben {
@@ -402,11 +403,13 @@ header {
 
 #nyhedsmail_s6 h2 {
   color: #d6cebd;
+  color: white;
 }
 
 #nyhedsmail_s6 p {
   padding-bottom: 20px;
   color: #d6cebd;
+  color: white;
 }
 
 .tekst6 {

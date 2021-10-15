@@ -58,20 +58,6 @@ main {
   display: block;
 }
 
-/* scroll snap */
-
-/* html {
-  max-height: 100vh;
-  overflow-y: scroll;
-  scroll-snap-type: y mandatory;
-  scroll-snap-align: start;
-}
-
-section[id^="section"] {
-  scroll-snap-align: start;
-  height: 100vh;
-} */
-
 /* navbar */
 
 header {
@@ -200,14 +186,7 @@ header {
   padding-top: 1.5rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  /* margin: 20px; */
-  /* background-image: url("img/background.jpg");
-  background-repeat: none;
-  background-size: cover; */
-  /* background-color: #d6cebd; */
-  background: #d6cebd;
-  /* background: -webkit-linear-gradient(to bottom, #e0d9ca, #d6cebd);
-  background: linear-gradient(to bottom, #e0d9ca, #d6cebd); */
+  background-color: #d6cebd;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
@@ -257,12 +236,21 @@ header {
 /* section 3 */
 
 #section3 {
-  max-width: 900px;
   padding-top: 25px;
   padding-bottom: 40px;
-  margin: auto;
+
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+#section3 .tekst3 {
+  max-width: 900px;
+  margin: auto;
+}
+
+#section3 .billeder_grid {
+  max-width: 1100px;
+  margin: auto;
 }
 
 #section3 .tekst3 p {
@@ -286,6 +274,9 @@ header {
   padding-right: 2rem;
   padding-top: 40px;
   background: #605046;
+  background-image: url("img/background.webp");
+  background-repeat: none;
+  background-size: cover;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
@@ -302,7 +293,7 @@ header {
 #section4 p,
 #section4 h2 {
   color: #d6cebd;
-  color: white;
+  color: black;
 }
 
 #section4 .flueben {
